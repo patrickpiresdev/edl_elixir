@@ -1,0 +1,9 @@
+Frodo
+Sam
+Merry
+Pippin
+Gandalf
+Legolas
+Gimli
+Aragorn
+Boromir
