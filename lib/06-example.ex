@@ -1,10 +1,10 @@
-defmodule FileReader do
-  def read_example1(file_name) do
+defmodule Example6 do
+  def read_file1(file_name) do
     result = File.read(file_name)
     print_file_content_example1(result)
   end
 
-  def read_example2(file_name) do
+  def read_file2(file_name) do
     result = File.read(file_name)
     print_file_content(result)
   end
