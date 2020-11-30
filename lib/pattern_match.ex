@@ -20,4 +20,15 @@ defmodule PatternMatch do
     IO.puts a
     IO.puts b
   end
+
+  def example5() do
+    [head | tail] = [1, 2, 3, 4, 5]
+    IO.puts(head)
+    IO.puts(tail)
+  end
+
+  def square([]), do: []
+  def square([head | tail]) do
+    [ head * head | square(tail) ]
+  end
 end
